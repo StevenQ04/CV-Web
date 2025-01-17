@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="CV Steven Quilumba">
+    <meta property="og:description" content="Conoce un poco de mi perfil profesional a través de mi CV">
+    <meta property="og:image" href="img/img_preview.png">
+    <meta property="og:url" content="https://bytebass.com/index.html">
+    <meta property="og:type" content="article">
+    <title>CV Steven Quilumba</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="futuristic-nav">
+            <button id="menu-toggle" class="menu-button">☰</button>
+            <ul id="nav-menu" class="nav-menu expanded">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio" class="intro-section">
+            <div class="highlight-box">
+                <div class="intro-content">
+                    <div class="text-content">
+                        <h1>¡Hola! Soy<span class="highlight">&nbsp;Steven Quilumba</span></h1>
+                        <div class="image-content">
+                            <div class="photo-container">
+                                <img src="img/no-image.png" alt="Foto de perfil" class="profile-photo">
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/tuperfil" target="_blank" title="LinkedIn">
+                                <img src="img/social/linkedin.png" alt="linkedin">
+                            </a>
+                            <a href="https://github.com/tuusuario" target="_blank" title="GitHub">
+                                <img src="img/social/github.png" alt="github">
+                            </a>
+                            <a href="mailto:tuemail@example.com" title="Correo">
+                                <img src="img/social/correo.png" alt="correo">
+                            </a>
+                        </div>
+                        <p>
+                            Soy un <span class="highlight">Desarrollador Web</span> apasionado por <span
+                                class="highlight">crear experiencias digitales únicas</span>.
+                            Mi objetivo es <span class="highlight">innovar a través de la tecnología</span>. Bienvenido
+                            a mi CV interactivo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <section id="habilidades" class="skills-section">
+            <h2>Habilidades</h2>
+            <div class="skills-container intro-content">
+                <div class="skill-box" data-skill="html">
+                    <h3>HTML</h3>
+                    <p>Construcción de estructuras semánticas y eficientes.</p>
+                </div>
+                <div class="skill-box" data-skill="css">
+                    <h3>CSS</h3>
+                    <p>Estilización y animaciones dinámicas.</p>
+                </div>
+                <div class="skill-box" data-skill="js">
+                    <h3>JavaScript</h3>
+                    <p>Interactividad y desarrollo de funciones avanzadas.</p>
+                </div>
+                <div class="skill-box" data-skill="react">
+                    <h3>React</h3>
+                    <p>Creación de interfaces modernas y reactivas.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal -->
+        <div class="modal" id="skill-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+
+        <section class="projects-section">
+            <h2>Proyectos Recientes</h2>
+            <div class="projects-container">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción breve del proyecto, destacando tecnologías utilizadas o logros alcanzados.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+        
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto, destacando tecnologías utilizadas o logros alcanzados.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+        
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción breve del proyecto, destacando tecnologías utilizadas o logros alcanzados.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+        
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <h3>Proyecto 4</h3>
+                    <p>Descripción breve del proyecto, destacando tecnologías utilizadas o logros alcanzados.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card">
+                    <h3>Proyecto 5</h3>
+                    <p>Descripción breve del proyecto, destacando tecnologías utilizadas o logros alcanzados.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-card">
+                    <h3>Proyecto 6</h3>
+                    <p>Descripción breve del proyecto, destacando tecnologías utilizadas o logros alcanzados.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2 class="contact-title">¡Hablemos!</h2>
+                <p class="contact-description">¿Tienes algún proyecto o idea en mente? ¡Estoy listo para colaborar!</p>
+                
+                <!-- Formulario de contacto -->
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" name="message" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </form>
+        
+                <!-- Redes sociales con animación -->
+                <div class="social-links">
+                    <a href="#" class="social-icon">
+                        <img src="img/social/whatsapp.png" alt="WhatsApp">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/social/twitter.png" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/social/github-circle.png" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="educacion" class="education-section">
+            <h2 class="section-title">Mi Trayectoria Educativa</h2>
+            <div class="timeline-container">
+                <!-- Evento 1 -->
+                <div class="timeline-event">
+                    <div class="event-dot"></div>
+                    <div class="event-content">
+                        <h3 class="event-title">Título Universitario</h3>
+                        <span class="event-date">2016 - 2020</span>
+                        <p>Obtuve mi título en Ingeniería Informática en la Universidad XYZ.</p>
+                    </div>
+                </div>
+                <!-- Evento 2 -->
+                <div class="timeline-event">
+                    <div class="event-dot"></div>
+                    <div class="event-content">
+                        <h3 class="event-title">Curso de Desarrollo Web</h3>
+                        <span class="event-date">2021</span>
+                        <p>Especialización en front-end y diseño responsivo.</p>
+                    </div>
+                </div>
+                <!-- Evento 3 -->
+                <div class="timeline-event">
+                    <div class="event-dot"></div>
+                    <div class="event-content">
+                        <h3 class="event-title">Bootcamp de Programación</h3>
+                        <span class="event-date">2022</span>
+                        <p>Mejoré habilidades avanzadas en React, Node.js y bases de datos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section" id="experiencia">
+            <h2 class="section-title">Experiencia Profesional</h2>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="card-content">
+                        <h3>Desarrollador Web</h3>
+                        <span>2020 - Presente</span>
+                        <p>Trabajé en la creación de plataformas interactivas para clientes internacionales, utilizando tecnologías como React y Node.js.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="card-content">
+                        <h3>Frontend Developer</h3>
+                        <span>2018 - 2020</span>
+                        <p>Me especialicé en construir interfaces de usuario atractivas y responsivas para aplicaciones empresariales.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="card-content">
+                        <h3>Practicante de TI</h3>
+                        <span>2017 - 2018</span>
+                        <p>Apoyé en la optimización de sistemas internos y aprendí buenas prácticas de desarrollo ágil.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+    <footer>
+        <p>&copy; Steven Quilumba | Todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
